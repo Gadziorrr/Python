@@ -1,5 +1,5 @@
 from datetime import datetime
-import itertools
+import itertools 
 
 
 class Note:
