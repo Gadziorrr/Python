@@ -19,3 +19,4 @@ class Rectangle:
 
 rect = Rectangle(5, 6)
 print(rect.__dict__)
+
