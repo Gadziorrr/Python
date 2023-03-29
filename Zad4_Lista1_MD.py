@@ -17,26 +17,26 @@ class Account():
             self.__balance -= int(value)
         
     def __str__(self):
-        print(f'\nPrivate balance: {self.__balance}')
+        return (f'\nPrivate balance: {self.__balance}')
         
 def main():
     firstAccount = Account(500)
     secondAccount = Account(1500)
 
     print('First account')
-    firstAccount.__str__() 
+    print(firstAccount)
     firstAccount.pay()
 
-    firstAccount.__str__()    
+    print(firstAccount)   
     firstAccount.take()
-    firstAccount.__str__() 
+    print(firstAccount)
     
     print('\nSecond account')
-    secondAccount.__str__()    
+    print(firstAccount)  
     secondAccount.take()
     
-    secondAccount.__str__() 
+    print(firstAccount)
     secondAccount.pay()
-    secondAccount.__str__() 
+    print(firstAccount)
     
 main()
